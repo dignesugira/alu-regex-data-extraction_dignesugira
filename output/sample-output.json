@@ -1,0 +1,134 @@
+{
+  "phones": [
+    "0788 123 456",
+    "0722-987-654",
+    "0733 221 100",
+    "0788123456",
+    "0788-999-000",
+    "0788 111 222",
+    "0788 000 111",
+    "0788 445 667"
+  ],
+  "cards_masked": [
+    "**** **** **** 0366",
+    "**** **** **** 1111",
+    "**** **** **** 6467",
+    "**** **** **** 5559",
+    "**** **** **** 1117",
+    "**** **** **** 3456",
+    "**** **** **** 0000",
+    "**** **** **** 4444",
+    "**** **** **** 0366"
+  ],
+  "times": [
+    "9:15 AM",
+    "11:40 am",
+    "2:05 PM",
+    "3:20 pm",
+    "4:45 PM",
+    "10:30 AM",
+    "10:31 am",
+    "12:02 PM",
+    "1:00 pm",
+    "2:30 pm",
+    "7:05 AM",
+    "7:05 pm",
+    "9:00 AM",
+    "10:30 am",
+    "12:45 PM",
+    "1:15 pm",
+    "5:59 PM",
+    "3:00 PM",
+    "8:00 am",
+    "8:00 pm",
+    "11:59 PM",
+    "12:00 AM",
+    "6:00 am"
+  ],
+  "emails": [
+    {
+      "email": "d***@alueducation.com",
+      "category": "OFFICIAL"
+    },
+    {
+      "email": "d***@alumni.alueducation.com",
+      "category": "ALUMNI"
+    },
+    {
+      "email": "k***@si.alueducation.com",
+      "category": "SI"
+    },
+    {
+      "email": "s***@alu.co.rw",
+      "category": "OTHER"
+    },
+    {
+      "email": "b***@example.com",
+      "category": "OTHER"
+    },
+    {
+      "email": "o***@sub.domain.example.co.rw",
+      "category": "OTHER"
+    },
+    {
+      "email": "f***@alueducation.com.evil-domain.net",
+      "category": "OTHER"
+    },
+    {
+      "email": "s***@alumni.alueducation.com.attacker.io",
+      "category": "OTHER"
+    },
+    {
+      "email": "j***@alumni.alueducation.com",
+      "category": "ALUMNI"
+    },
+    {
+      "email": "a***@si.alueducation.com",
+      "category": "SI"
+    },
+    {
+      "email": "a***@alueducation.com",
+      "category": "OFFICIAL"
+    },
+    {
+      "email": "s***@alueducation.com",
+      "category": "OFFICIAL"
+    },
+    {
+      "email": "p***@gmail.com",
+      "category": "OTHER"
+    },
+    {
+      "email": "M***@ALUEDUCATION.COM",
+      "category": "OTHER"
+    },
+    {
+      "email": "a***@alueducation.com",
+      "category": "OFFICIAL"
+    },
+    {
+      "email": "b***@alueducation.com",
+      "category": "OFFICIAL"
+    },
+    {
+      "email": "a***@alumni.alueducation.com",
+      "category": "ALUMNI"
+    },
+    {
+      "email": "a***@si.alueducation.com",
+      "category": "SI"
+    },
+    {
+      "email": "a***@alueducation.co",
+      "category": "OTHER"
+    },
+    {
+      "email": "a***@alu-education.com",
+      "category": "OTHER"
+    },
+    {
+      "email": "n***@vendor-portal.example.com",
+      "category": "OTHER"
+    }
+  ]
+}
